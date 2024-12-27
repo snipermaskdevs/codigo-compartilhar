@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Sharing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Compartilhar Código</h1>
+    <textarea id="codeEditor" placeholder="Comece a digitar seu código aqui..."></textarea>
+    <div>
+      <button id="saveButton">Salvar Código</button>
+    </div>
+    <p id="status"></p>
+
+    <!-- Seção para mostrar o link compartilhável -->
+    <div>
+      <p>Link para compartilhar:</p>
+      <input type="text" id="shareLink" readonly>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
