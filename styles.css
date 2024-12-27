@@ -6,13 +6,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #ff9800, #f44336);
-    color: #000000;
+    background: #333;
+    color: #ffffff;
     transition: background-color 0.3s ease;
 }
 
 .container {
-    background: linear-gradient(135deg, #FF4081, #3F51B5);
+    background: #333;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -25,12 +25,12 @@ body {
 .container:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
-    background: linear-gradient(135deg, #FF80AB, #536DFE);
+    background: #333;
 }
 
 h1 {
     font-size: 20px;
-    color: #000000;
+    color: #ff0000;
     margin-bottom: 20px;
     font-weight: 500;
     text-transform: uppercase;
